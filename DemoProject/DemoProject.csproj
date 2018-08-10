@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SqliteEncryption\SqliteEncryption.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service\" />
+    <Folder Include="Contract\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Entity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="PCLCrypto" Version="2.0.147" />
+    <PackageReference Include="sqlite-net" Version="1.0.8" />
+    <PackageReference Include="SQLiteNetExtensions" Version="2.0.0" />
+    <PackageReference Include="FreshMvvm" Version="2.2.4" />
+  </ItemGroup>
+</Project>

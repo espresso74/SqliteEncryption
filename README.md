@@ -1,0 +1,2 @@
+# SqliteEncryption
+Sqlite Encryption library
